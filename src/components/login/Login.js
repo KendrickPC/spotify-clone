@@ -1,9 +1,10 @@
 
 import React from "react";
-import "./Login.css";
-import { loginUrl } from './spotify.js';
+// import "./Login.css";
+import './Login.css'
+import { loginUrl } from '../../spotify';
 
-function Login() {
+export function Login()  {
   return (
     <div className="login">
       <img 
@@ -15,4 +16,5 @@ function Login() {
   );
 }
 
-export default Login;
+// export default Login;
+
